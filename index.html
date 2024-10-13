@@ -3,115 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Table</title>
+    <title>Document</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <button id="btn" onclick = "edit()">Edit row 1</button>
-    <table>
-        <thead>
-            <tr>
-                <th>Student</th>
-                <th>Student FB</th>
-                <th>Student Parent</th>
-                <th>Student Parent FB</th>
-                <th>Age</th>
-                <th>Group Leader</th>
-            </tr>
-        </thead>
-        <tbody>
-             <tr>
-                <td id="td1"></td>
-                <td id="td2"></td>
-                <td id="td3"></td>
-                <td id="td4"></td>
-                <td id="td5"></td>
-                <td id="td6"></td>
-             </tr>
-
-             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-             </tr>
-
-             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-             </tr>
-
-             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-             </tr>
-
-             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-             </tr>
-
-             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-             </tr>
-
-             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-             </tr>
-
-             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-             </tr>
-
-             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-             </tr>
-
-             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-             </tr>
-
-        </tbody>
-    </table>
-    <script src="index.js"></script>
+    <div class="signin">
+        <h1>Sign In</h1>
+        <form action="table.html" >
+            <input type="email" name="email" placeholder="email" required> <br><br>
+            <input type="password" name="password" placeholder="password"required> <br><br>
+            <select name="role">
+                <option>viewer</option>
+                <option>editor</option>
+            </select> <br><br>
+            <input type="submit" value="sign in">
+        </form>
+    </div>
 </body>
 </html>

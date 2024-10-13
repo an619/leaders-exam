@@ -13,37 +13,41 @@
     --other-color: #6fbe73;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
-
-.signin {
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    border-radius: 20px;
-    padding: 40px;
-    box-shadow: 10px 10px 20px rgb(162, 162, 162);
-}
- 
-input{
-    border: 1px solid;
-    border-radius: 5px;
-    width: 300px;
-    height: 40px;
+    gap: 100px;
 }
 
-input[type = "submit"] {
+table {
+    border-collapse: collapse;
+    box-shadow: 10px 10px 20px rgb(188, 187, 187);
+}
+
+td, th {
+    border: 1px solid var(--main-color);
+    padding: 20px 30px;
+}
+
+thead {
     background-color: var(--main-color);
     color: white;
 }
 
-input[type = "submit"]:hover {
-    background-color: var(--other-color);
+tr:nth-child(even) {
+    background-color: #6fbe73;
 }
 
+#btn {
+    background-color: var(--main-color);
+    border: 5px;
+    padding: 10px;
+    color: white;
+}
+
+#btn:hover {
+    background-color: var(--other-color);
+}
